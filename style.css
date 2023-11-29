@@ -1,0 +1,69 @@
+*, *::after, *::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+     margin: 0;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 16px;
+     background-color: powderblue;
+     color: #000;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     min-height: 100vh;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: green;
+    text-align: center;
+}
+
+.upload-img{
+    width: 300px;
+    margin: 0 auto 30px;
+    position: relative;
+    text-align: center;
+    font-size: 22px;
+    padding: 15px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 25px;
+}
+
+.upload-img input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+    cursor: pointer;
+}
+
+#showImg{
+    margin: 0 auto;
+    display: block;
+    max-width: 400px;
+    border-radius: 25px;
+}
+
+button{
+    margin: 30px auto 0;
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    font-size: 22px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 25px;
+    display: block;
+    cursor: pointer;
+}
